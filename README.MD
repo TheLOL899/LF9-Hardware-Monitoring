@@ -1,9 +1,9 @@
 # Software zur Konfiguration eines virtuellen Routers von Team09
 Eine Software zum Konfigurieren eines virtuellen Routers über SSH und einer APi mit GUI. 
 
-## Vorbereitung VM 
+## Vorbereitung VM CRSV1000V
 
-Install CRSV100V VM <br>
+Install CRSV1000V VM <br>
 
 Die VM fügt via DHCP sich selbst eine IP Adresse zu. <br>
 Um diese zu sehen muss man in der VM folgende Befehle ausführen: <br>
