@@ -16,7 +16,6 @@ Schaue in der VM, ob alle Sachen laufen
 ```
 config t 
 restconf
-'''
 
 ## Vorbereitung Script 
 
@@ -24,7 +23,6 @@ Install python <br>
 
 ```
 pip install python tk requests
-```
 
 Ändere die IP-Adresse für die Apirequests in der api_requests.py mit der IP Adresse aus der VM. <br>
 
