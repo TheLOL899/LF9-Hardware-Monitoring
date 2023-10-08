@@ -1,16 +1,32 @@
-Install CRSV100V VM 
+# Software zur Konfiguration eines virtuellen Routers von Team09
+Eine Software zum Konfigurieren eines virtuellen Routers über SSH und einer APi mit GUI. 
 
-Install python 
-pip install python 
-pip install tk 
-pip install requests 
+## Vorbereitung VM 
 
-Die VM fügt via DHCP sich selbst eine IP Adresse zu. 
-Um diese zu sehen muss man in der VM folgende Befehle ausführen: 
+Install CRSV100V VM <br>
+
+Die VM fügt via DHCP sich selbst eine IP Adresse zu. <br>
+Um diese zu sehen muss man in der VM folgende Befehle ausführen: <br>
+```
 en 
 show ip interface brief 
+```
 
-Ändere die IP-Adresse für die Apirequests in der api_requests.py mit der IP Adresse aus der VM. 
+Schaue in der VM, ob alle Sachen laufen 
+```
+config t 
+restconf
+'''
+
+## Vorbereitung Script 
+
+Install python <br>
+
+```
+pip install python tk requests
+```
+
+Ändere die IP-Adresse für die Apirequests in der api_requests.py mit der IP Adresse aus der VM. <br>
 
 Anwendung starten: 
 python main.py 
