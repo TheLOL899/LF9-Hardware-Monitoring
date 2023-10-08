@@ -12,19 +12,19 @@ en
 show ip interface brief 
 ```
 
-Schaue in der VM, ob alle Sachen laufen 
-```
-config t 
-restconf
+Schaue in der VM, ob alle Sachen laufen mit den Befehlen:  
+
+config -t <br>
+restconf <br>
 
 ## Vorbereitung Script 
 
 Install python <br>
 
-```
 pip install python tk requests
+<br>
 
 Ändere die IP-Adresse für die Apirequests in der api_requests.py mit der IP Adresse aus der VM. <br>
 
-Anwendung starten: 
+Anwendung starten: <br>
 python main.py 
